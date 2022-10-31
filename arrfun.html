@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var acc=[123456,654321];
+var p=[123,321];
+var balance=[15000,25000];
+var add,draw;
+
+
+function validate1()
+{
+
+var accno=prompt("ENTER ACCOUNT NUMBER:");
+ if(accno==acc[0]||accno==acc[1]) 
+          {
+         alert("ACCOUNT IS VALID:");
+         validate2(accno);
+           }
+         else
+          {
+          alert("provide valid acc number");
+            }
+              }
+          validate1();
+      function validate2(accno)
+        {
+        
+      var password=prompt("ENTER  PASSWORD");
+         if(password==p[0]&&accno==acc[0]||password==p[1]&&accno==acc[1])
+              {
+         alert("You are successfully logged in to u r account");
+         choose(accno);
+               }
+         else{
+          alert("provide valid password");
+          validate1();
+                 }
+                    }
+           function choose(accno)
+           {
+           
+          alert("Choose your option:\n 1.CheckBalance \n2 .Withdraw \n 3.Deposit \n 4.Exit");
+          
+          var check=prompt("Enter your value:");
+          switch(check){
+          
+                                        case "1":
+                                                
+						alert("Balance Checking");
+						bal(accno);
+
+						break;
+					case "2":
+						alert("withdraw money ");
+						draw(accno);
+						
+						break;
+					case "3":
+						alert("Deposit money");
+						depo(accno);
+						break;
+					case "4":
+						alert("Log-Out");
+                                                  
+						logout(accno);
+						validate1(accno)
+				         default:
+				         alert("Invalid input");
+				         choose();
+					}
+      
+         }
+         function bal(accno)
+         {
+        if(accno==acc[0])
+         {
+        
+         alert("Balance Checking for Account1 "+balance[0]);
+         choose();
+           }
+          else if(accno==acc[1]){
+          
+          alert("Balance Checking for Account2 "+balance[1]);
+          choose();
+          }
+          else
+          {
+          validate1 ();
+          }
+          }
+          function draw(accno)
+          {
+          if(accno==acc[0])
+          {
+          
+               draw=prompt("Enter money to draw:");
+             if(draw>balance1)
+             {
+              alert("Insufficient Balance");
+              choose();
+             }
+             else {
+             balance[0]-=Number(draw);
+              alert("Money available in your account is:"+balance[0]);
+              choose();
+              }
+             
+         }
+         else if(accno==acc[1]){
+         draw=prompt("Enter money to draw:");
+             if(draw>balance[1])
+             {
+              alert("Insufficient Balance");
+              choose();
+             }
+             else {
+             balance[1]-=Number(draw);
+              alert("Money available in your account is:"+balance[1]);
+              choose();
+         }
+         }
+         
+         }
+         
+         
+          function depo(accno)
+          {
+          if(accno==acc[0])
+          {
+          
+             add=prompt("Enter money to add:")
+             balance[1]+=Number(add);
+             alert(" Amount in Your Account is:"+balance[1]);
+             choose();
+         }
+         else if(accno==acc[1]){
+         add=prompt("Enter money to add:")
+             balance[1]+=Number(add);
+             alert(" Amount in Your Account is:"+balance[1]);
+             choose();
+         }
+         }
+          function logout(accno)
+          {
+          if(accno==acc[1]){
+           alert("Log-Out");
+           validate1();
+          }
+          else if(accno==acc[1]){
+          alert("Log-Out");
+           validate1();
+          }
+          }
+         
+          validate1(); 
+          </script>
+          </body>
+          </html>
+          
