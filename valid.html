@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+   <body>
+      <script>
+         var j=0;
+         var balance1=10000;
+         var balance2=20000;
+         var draw;
+         var add;
+           while(j<4){
+          var accno=prompt("ENTER YOUR ACCOUNT NUMBER:");
+         
+          if(accno=="123456" || accno=="654321" ) 
+          {
+          var password=prompt("ENTER PASSWORD");
+          if(password=="123" && accno=="123456" || password=="321" && accno=="654321")
+          {
+          alert("Your Account no. and password are valid,you may login to u r account");
+          do{
+            alert("Choose your option:\n 1.CheckBalance \n2 .Withdraw \n 3.Deposit \n 4.Exit");
+          
+           var check=prompt("Enter your value:");
+           switch(check){
+          case "1":
+          if(accno=="123456"&& password=="123")
+          {
+          alert("Balance Checking"+balance1);
+           }
+          else{
+          alert("Balance is "+balance2);
+          }
+         break;
+         case "2":
+         if(accno=="123456"&& password=="123")
+         {
+             draw=prompt("Enter money to draw:");
+             if(draw>balance1){
+              alert("Insufficient Balance");
+             }
+             else{
+             balance1-=Number(draw);
+         alert("Money available in your account is:"+balance1);
+         }
+         }
+         else{
+         draw=prompt("Enter money to draw:");
+             if(draw>balance2){
+              alert("Insufficient Balance");
+             }
+             else{
+             balance2-=Number(draw);
+         alert("Money available in your account is:"+balance2);
+         }
+         }
+         break;
+         
+         case "3":
+         if(accno=="123456"&& password=="123")
+                                           {
+             add=prompt("Enter money to add:")
+             balance1+=Number(add);
+         alert(" Amount in Your Account is:"+balance1);
+         }
+         else{
+         add=prompt("Enter money to add:")
+             balance2+=Number(add);
+         alert(" Amount in Your Account is:"+balance2);
+         }
+         
+         break;
+         case "4":
+         alert("Log-Out");
+         j++;
+         
+         }
+         
+         
+         
+          }while(check!=4);                 
+           }
+           else{
+           alert("provide valid password");
+           
+           }
+           }
+           else
+           {
+           alert("provide valid acc number");
+           
+           }
+         }
+         
+      </script>        
+   </body>
+</html>
+

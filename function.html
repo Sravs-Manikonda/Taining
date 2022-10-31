@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <script>
+         var acc1="123456";
+         var acc2="654321";
+         var p1="123";
+         var p2="321";
+         var balance1=15000;
+         var balance2=25000;
+         var add,draw;
+         
+         
+         function validate1()
+         {
+         
+         var accno=prompt("ENTER ACCOUNT NUMBER:");
+          if(accno==acc1||accno==acc2) 
+                   {
+                  alert("ACCOUNT IS VALID:");
+                  validate2(accno);
+                    }
+                  else
+                   {
+                   alert("provide valid acc number");
+                     }
+                       }
+                   validate1();
+               function validate2(accno)
+                 {
+                 
+               var password=prompt("ENTER  PASSWORD");
+                  if(password==p1&&accno==acc1||password==p2&&accno==acc2)
+                       {
+                  alert("You are successfully logged in to u r account");
+                  choose(accno);
+                        }
+                  else{
+                   alert("provide valid password");
+                   validate1();
+                          }
+                             }
+                    function choose(accno)
+                    {
+                    
+                   alert("Choose your option:\n 1.CheckBalance \n2 .Withdraw \n 3.Deposit \n 4.Exit");
+                   
+                   var check=prompt("Enter your value for required information:");
+                   switch(check){
+                   
+                                                 case "1":
+                                                         
+         						alert("For Balance Checking");
+         						bal(accno);
+         
+         						break;
+         					case "2":
+         						alert("For withdraw money ");
+         						draw(accno);
+         						
+         						break;
+         					case "3":
+         						alert("For Deposit money");
+         						depo(accno);
+         						break;
+         					case "4":
+         						alert("Log-Out");
+                                                           
+         						logout(accno);
+         						validate1()
+         				         default:
+         				         alert("Invalid input");
+         				         choose();
+         					}
+               
+                  }
+                  function bal(accno)
+                  {
+                 if(accno==acc1)
+                  {
+                 
+                  alert("Balance Checking for Account1 "+balance1);
+                  choose();
+                    }
+                   else if(accno==acc2){
+                   
+                   alert("Balance Checking for Account2 "+balance2);
+                   choose();
+                   }
+                   else
+                   {
+                   validate1 ();
+                   }
+                   }
+                   function draw(accno)
+                   {
+                   if(accno==acc1)
+                   {
+                   
+                        draw=prompt("Enter money to draw:");
+                      if(draw>balance1)
+                      {
+                       alert("Insufficient Balance");
+                       choose();
+                      }
+                      else {
+                      balance1-=Number(draw);
+                       alert("Money available in your account is:"+balance1);
+                       choose();
+                       }
+                      
+                  }
+                  else if(accno==acc2){
+                  draw=prompt("Enter money to draw:");
+                      if(draw>balance2)
+                      {
+                       alert("Insufficient Balance");
+                       choose();
+                      }
+                      else {
+                      balance2-=Number(draw);
+                       alert("Money available in your account is:"+balance2);
+                       choose();
+                  }
+                  }
+                  
+                  }
+                  
+                  
+                   function depo(accno)
+                   {
+                   if(accno==acc1)
+                   {
+                   
+                      add=prompt("Enter money to add:")
+                      balance1+=Number(add);
+                      alert(" Amount in Your Account is:"+balance1);
+                      choose();
+                  }
+                  else if(accno==acc2){
+                  add=prompt("Enter money to add:")
+                      balance2+=Number(add);
+                      alert(" Amount in Your Account is:"+balance2);
+                      choose();
+                  }
+                  }
+                   function logout(accno)
+                   {
+                   if(accno==acc1){
+                    alert("Log-Out");
+                    validate1();
+                   }
+                   else if(accno==acc2){
+                   alert("Log-Out");
+                    validate1();
+                   }
+                   }
+                  
+                   validate1(); 
+                   
+      </script>
+   </body>
+</html>
+
