@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+//array index using program
+var acc=["123456","654321","909090"];
+var p=["123","321","909"];
+var balance=[15000,25000,9900];
+var add,draw;
+var i,index;
+var transaction=[];
+var type,amount;
+function validation()
+{
+
+var accno=prompt("ENTER ACCOUNT NUMBER:");
+
+    
+       if(acc.includes(accno)) 
+          {
+		  index=acc.indexOf(accno);
+		  var password=prompt("ENTER YOUR  PASSWORD");
+           if(index==p.indexOf(password))
+          {
+		  
+          alert(" valid password\n You have successfully logged in to your account");
+          choose(index);
+          }      
+        
+       else
+          {
+          alert("provide valid password");
+           
+          }
+          }
+            
+        else{
+           alert("provide valid account number");
+		   validation();
+          }
+			   
+      
+     
+                    }
+                  validation();
+           function choose(index)
+           {
+           
+          alert("Choose your option:\n 1.CheckBalance \n2 .Withdraw \n 3.Deposit \n 4.Transactions\n 5.Log-out");
+          
+          var check=prompt("Enter your value:");
+          switch(check){
+          
+                     case "1":
+                                                
+						alert("For Balance Checking");
+						bal();
+
+						break;
+					case "2":
+						alert("For withdraw money ");
+						draw();
+						
+						break;
+					case "3":
+						alert("For Deposit money");
+						depo();
+						break;
+					case "4":
+						alert("Transactions info");
+                                                  
+						tran();
+						break;
+					case "5":
+					        alert("Log-Out");
+					        logout();	
+				         default:
+				         alert("Invalid input");
+				         choose(index);
+					}
+      
+         }
+         function bal()
+         {
+         alert(`Balance Available in your account ${balance[index]}`);
+         choose(index);
+         }
+         
+          function draw()
+          {
+          draw=prompt("Enter money to draw:");
+             if(draw>balance[index])
+             {
+              alert("Insufficient Balance");
+              choose(index);
+             }
+             else {
+             balance[index]-=Number(draw);
+              alert(`Money available in your account is:${balance[index]}`);
+              transaction.push({type:"Withdraw",amount:draw});
+              choose(index);
+              }
+             
+            }
+         
+        
+         
+         
+          function depo()
+          {
+           add=prompt("Enter money to add:")
+             balance[index]+=Number(add);
+             alert(`Money available in your account is:${balance[index]}`);
+             transaction.push({type:"Deposit",amount:add});
+             choose(index);
+         }
+         
+         
+          function logout()
+          {
+          alert("THANK YOU!!!");
+          validation();
+          }
+       function tran()
+       {
+       let  list="";
+       for(let i=0;i<transaction.length;i++)
+     {
+      list+=(`\n${transaction[i].type}-${transaction[i].amount}`);
+}
+      alert(list);
+      choose(index);
+	   console.log(transaction);
+       }
+	  
+          validation(); 
+          </script>
+          </body>
+          </html>
+          
