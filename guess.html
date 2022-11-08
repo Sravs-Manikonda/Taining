@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<script src="/home/feuji/Desktop/Sravstask/javascript/guessnum.js">
+	             </script>
+</head>
+
+   
+      <style>
+            body{
+             background-color:#333333;
+              font-family:'Press Start 2P' ,sans-serif;
+			  width:1200px;
+			  margin:auto;
+               }
+		    .again{
+		     width:35%;
+			 float:left;
+		    font-family:'Press Start 2P' ,sans-serif;
+		      }
+		.bet{
+		width:65%;
+		float:right;
+		color:white;		
+	    text-align:right;
+		font-size:10px;
+		height:65px;
+		
+		}
+		button
+		{
+		justify-content:center;
+		background-color:#f2f2f2;
+		width:38%;
+		height:65px;
+		font-family:'Press Start 2P' ,sans-serif;
+		border:none;
+		font-size:20px;
+		}
+		button:hover{
+         background-color:green;
+		 
+         }
+		.guessnum{
+		text-align:center;
+		color:white;
+		font-size:25px;
+		
+		}
+		hr{
+		background-color:#f2f2f2;
+		height:5px;
+		}
+		.que{
+	       font-size:35px;
+		   background-color:#f2f2f2;
+		   width:13%;
+		   height:65px;
+		   margin-top:-50px;;
+		   margin-left:42%;
+		   text-align:center;
+		   padding-top:20px;
+		   
+		}
+		input
+		{
+		height:75px;
+		text-align:center;
+		border:3px solid #f2f2f2;
+		color:#f2f2f2;
+        font-family:'Press Start 2P' ,sans-serif;
+		background-color:#333333;
+		font-size:18px;
+		width:37%;
+	         }
+		.number{
+		width:35%;
+		float:left;
+		margin-top:150px;
+		   margin-left:15%;
+		}
+		
+	     .process{
+		 width:40%;
+		 float:right;
+		 color:#f2f2f2;
+		 font-size:17px;
+		 font-family:'Press Start 2P' ,sans-serif;
+		margin-top:110px;
+		 }
+		 .check1{
+		   width:30%;
+		   height:50px;
+		   background-color:#f2f2f2;
+		   justify-content:center;
+		   margin-left:5%;
+		   padding-top:15px;
+		   padding-bottom:15px;
+		 }
+		 
+		
+       </style>
+            <body>
+			     
+                  <div class="again">
+	                    <button  onclick="again()" >AGAIN!</button>
+	               </div>
+				  <div class="bet">
+                      <p>--Between 1 and 20--</p>
+				</div>
+				
+                <h4 class="guessnum">GUESS THE NUMBER!!</h4><br><br>
+          
+                <hr>	
+				   <div class="que">?
+				  </div>
+				  <div>
+				      <div class="number">
+				         <input type="text"  class="guess" maxlength="3" placeholder=" Enter "><br><br>
+						 <button class="check1"  button="pointer" onclick="checknum()" id="del">check!</button>
+						</div>
+				           <div class="process">
+                                						   
+				                  <h3 >start guessing.........
+						             </h3><br><br>
+									
+						              <p >***SCORE***: <span  class="score">20</span>
+									  </p>
+									  <br><br>
+						             <p>****HIGHSCORE****: <span class="highscore">0</span>
+									 </p>
+						 
+				            </div>
+				    </div>
+	                  
+			</body>
+		
+	</html>
+	  
