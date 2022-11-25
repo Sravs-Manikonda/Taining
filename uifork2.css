@@ -1,0 +1,276 @@
+body
+   {
+       background-image:linear-gradient(to right,#fbdb89,#f38e82);
+	  font-family: Garuda;
+	 margin-left:auto;
+	 margin-right:auto;
+	    
+      }
+	  *{
+		  margin:0px;
+		  padding:0px;
+		  box-sizing:border-box;
+	  }
+	 
+	  .container{
+		 padding-top:20px;
+		  width:1000px;
+	      height:95vh;
+		  background-color:white;
+		  border-radius:10px ;
+		margin:auto;
+		  
+	  }
+	 .head{
+		  padding-right:20px;
+		  height:7vh;
+	  }
+	  .divhead0{
+		  width:20%;
+		  float:left;
+		  padding:10px;
+		  
+	  }
+	  
+	  .reci{
+		  margin-top:-1%;
+		  
+	  }
+	  
+	  .content{
+		 width:70%;
+		  height:70vh;
+		// background-color:#d9d9d9;
+		  float:left;
+		  
+	  }
+	  .recimg{
+		  width:20%;
+		  float:left;
+		  
+	  }
+	  
+	  
+	  .divhead2{
+		  width:30%;
+		  float:left;
+		  padding:10px;
+		  
+	  }
+	  
+	  .divhead1{
+		  width:30%;
+		  float:left;
+		  padding-left:124px;
+		  padding-top:13px;
+		  float:left;
+	  }
+	   .icon{
+		  width:30%;
+		  
+		 
+		  float:left;
+		  
+	  }
+	  
+	  
+	  .image{
+		  width:68%;
+		  
+		  float:left;
+	        }
+	  .img1{
+		  width:25px;
+		padding-left:40px;
+		 margin: -2% 2%;
+		  
+	            }
+	.pie{
+		width:100%;
+		
+		
+	}
+	.pieimg{
+		width:100%;
+		height:41%;
+	}
+	  
+	  input{
+		  height:4vh;
+		  width:22%;
+		  border-radius:30px;
+		  border:none;
+		  border: 2px solid #f2f2f2;
+		  position:absolute;
+		  
+		
+	  }
+	  
+	  .clrpepp{
+		color:white;
+	    background-image:linear-gradient(to right,#fbdb89,#f38e82);
+      position:relative;
+	   transform:skewY(-8deg);
+		width:30%;
+       text-transform:uppercase;
+		bottom:4vh;
+	}
+	.clock{
+	 width:25px;
+		  height:25px;
+		  margin-left:13%;
+		  float:inherit;
+	
+	}
+	.clock1{
+	 width:26px;
+		  height:26px;
+		  margin-left:9%;
+	       float:inherit;
+		   margin-right:0px;
+	}
+	
+	
+	.sym{
+	 width:25px;
+		  height:22px;
+		  margin-left:-1%;
+		  float:inherit;
+	
+	}
+	.prep{
+		color:white;
+         background-image:linear-gradient(to right,#fbdb89,#f38e82);
+       position:relative;
+		transform:skewY(-8deg);
+		width:15%;
+		bottom:5vh;
+		  text-transform:uppercase;
+	}
+	
+	  .mid{
+		width:100%;
+		height:3vh;
+        padding-bottom:10px; 
+		padding-left:33px;
+	}
+	 .recipe1{
+		  background-color:#e6e6e6;
+		  height:25vh;
+		 padding-top:10px;
+		 overflow:scroll;
+	  }
+	  
+	  
+	  
+	  .button{
+		 background-image:linear-gradient(to right,#fbdb89,#f38e82);
+		  border-radius:30px;
+		  border:none;
+		  height:4vh;
+		  width:32%;
+		position:relative;
+		  color:white;
+		  float:right;
+	  }
+	  .recipe{
+		  height:51px;
+          width:370px;
+		   
+		  padding:7px;
+	  }
+	  .pizzaimg{
+		  border-radius:50%;
+		  
+		  width:70%;
+		  
+	  }
+	
+	  h5{
+		  color:#f38e82;
+		  text-transform:uppercase;
+		 
+	  }
+	 p{
+		  font-size:12px;
+	  }
+	  .imgcon{
+		  padding-top:2px;
+		  float:left;
+	  }
+	  .recipe:hover{
+		background-color:#d9d9d9;  
+		
+	  }
+	 h4{
+		 color:#f38e82;
+		  text-transform:uppercase;
+		  text-align:center;
+	 } 
+	 .part1{
+		 width:42%;
+		 background-color:pink;
+		 float:left;
+		 height:20vh;
+		 padding:25px;
+	 }
+	 .part2{
+		 width:50%;
+		 background-color:skyblue;
+		 float:right;
+		 height:20vh
+	 }
+	 .material-symbols-outlined{
+		  color:#ff704d;
+		  font-size:12px;
+	  }
+	  .padd{
+		padding-left:23%;
+		
+	}
+	h3{
+		color:#f38e82;
+		  text-transform:uppercase;
+		  text-align:center;
+		
+	}
+	 .button1{
+		 background-image:linear-gradient(to right,#fbdb89,#f38e82);
+		  border-radius:30px;
+		  border:none;
+		  height:5vh;
+		  width:20%;
+		  margin-left:-5%;
+		  color:white;
+	  }
+	  .font{
+		  font-size:12px;
+		  
+	  }
+	  .footer{
+		  font-size:15px;
+	  }
+	  .pbtn{
+		float:right;
+		  background-image:linear-gradient(to right,#fbdb89,#f38e82);
+		  border-radius:30px;
+		  border:none;
+		  height:4vh;
+		  width:28%;
+		    color:red;
+	  }
+	   .pbtn1{
+		 float:left;
+		  background-image:linear-gradient(to right,#fbdb89,#f38e82);
+		  border-radius:30px;
+		  border:none;
+		  height:4vh;
+		  width:28%;
+		    color:red;
+	  }
+	  .arrow{
+		  width:25px;
+		padding-left:2px;
+		
+		  
+	            }
