@@ -1,0 +1,131 @@
+{
+  "posts": [
+    {
+      "name": "idly",
+      "price": "30",
+      "id": 1
+    },
+    [
+      {
+        "name": "Chapathi",
+        "price": 30
+      },
+      {
+        "name": "Dosa",
+        "price": 30
+      }
+    ]
+  ],
+  "items":
+[
+  {
+    "name":"Idle",
+    "price": 20,
+    "id":0
+    },
+ {
+ "name":"Idle",
+ "price": 20,
+ "id":1
+ },
+ {
+ "name":"Chapathi",
+ "price": 30,
+ "id":2
+ },
+ {
+ "name":"Dosa",
+ "price": 30,
+ "id":3
+ },
+ {
+ "name":"Wada",
+ "price": 25,
+ "id":4
+ } ,
+ {
+ "name":"Puri",
+ "price":30,
+ "id":5
+ },
+ {
+ "name":"Veg Fried Rice",
+ "price": 80,
+ "id":6
+ },
+ {
+ "name":"Non veg Fried Rice",
+ "price": 110,
+ "id":7
+ },
+ {
+ "name":"Veg Biryani",
+ "price": 90,
+ "id":8
+ } ,
+ {
+ "name":"Non Veg Biryani",
+ "price": 150,
+ "id":9
+ },
+ {
+ "name":"Meals",
+ "price": 70,
+ "id":10
+ },
+ {
+  "name":"puri",
+  "price":50,
+  "id":11
+ },
+ {
+  "name":"vada",
+  "price":25,
+  "id":12
+ },
+ {
+  "name":"pizza",
+  "price":150,
+  "id":13
+ },
+ {
+  "name":"burger",
+  "price":200,
+  "id":14
+ },
+ {
+  "name":"frenchfries",
+  "price":100,
+  "id":15
+ },
+ 
+ {
+  "name":"puri",
+  "price":50,
+  "id":16
+ },
+ {
+  "name":"vada",
+  "price":25,
+  "id":17
+ },
+ {
+  "name":"pizza",
+  "price":150,
+  "id":18
+ },
+ {
+  "name":"burger",
+  "price":200,
+  "id":19
+ },
+ {
+  "name":"frenchfries",
+  "price":100,
+  "id":20
+ }
+ 
+]
+
+
+}
