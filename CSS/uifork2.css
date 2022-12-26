@@ -1,0 +1,387 @@
+body
+   {
+       background-image:linear-gradient(to right,#fbdb89,#f38e82);
+	  padding-top:50px;
+	  font-family: 'Nunito Sans', sans-serif;
+	  opacity:0.6;
+      }
+	 *{
+		  margin:0px;
+		  padding:0px;
+		 
+	  }
+	  input{
+		  padding-left:15px;
+	  }
+	 
+	  .container{
+		
+		  width:1000px;
+	      background-color:white;
+		  border-radius:10px;
+		  margin:auto;
+		  position:relative;
+	  }
+	 .head{
+		  padding-top:13px;
+		  padding-left:12px;
+		background-color:#e6e6e6;
+		
+		padding-bottom:13px;
+	  }
+	  .divhead0{
+		  width:20%;
+		  float:left;
+		  padding:10px;
+		  
+	  }
+	  
+	  .reci{
+		  position:relative;
+		  bottom:6px;
+		  text-transform:uppercase;
+		  font-size:12px;
+	  }
+	  
+	  .content{
+		 width:70%;
+		background-color:#e6e6e6;
+         float:left;
+		
+		  
+	  }
+	  .recimg{
+		  width:20%;
+		  float:left;
+		  padding-top:6px;
+	  }
+	  
+	  
+	  .divhead2{
+		  width:35%;
+		  float:left;
+		  padding:10px;
+		  
+	  }
+	  
+	  .divhead1{
+		  width:30%;
+		  float:left;
+		  padding-left:93px;
+		  padding-top:17px;
+		
+	  }
+	  .divhead1:after{
+		  clear:left;
+	  }
+	   .icon{
+		  width:30%;
+		  float:left;
+	      padding-top:10px;
+		  //min-height:500px;
+		  }
+		  .text{
+			  position:relative;
+			  bottom:3px;
+			  padding-right:5px;
+		  }
+		  .icon:after{
+			  clear:both;
+		  }
+	  
+	  
+	  .image{
+		  width:65%;
+		  
+		  float:left;
+	        }
+	  .img1{
+		  width:25px;
+		padding-left:34px;
+		
+	            }
+				.img2{
+		  width:20px;
+		padding-left:34px;
+		
+	            }
+				
+	.pie{
+		width:100%;
+		height:300px;
+		overflow:hidden;
+	}
+	.imgsear{
+		height:20px;
+		position:relative;
+		top:5px;
+		
+	}
+	.pieimg{
+		width:100%;
+		//height:340px
+		
+	}
+	  
+	  input{
+		  height:40px;
+		  width:30%;
+		  border-radius:30px;
+		  border:none;
+		  border: 2px solid #f2f2f2;
+		  position:absolute;
+
+	  }
+	  
+	  .clrpepp{
+		color:white;
+	    background-image:linear-gradient(to bottom,#fbdb89,#f38e82);
+       position:relative;
+	   transform:skewY(-8deg);
+	    width:30%;
+		text-transform:uppercase;
+		bottom:66px;
+		padding:12px;
+		
+		
+	}
+	.title{
+		font-weight:bold;
+		 text-transform: capitalize;
+	}
+	.clock{
+	      width:20px;
+		  margin-left:13%;
+	      padding-right:10px;
+	padding-bottom:1px;
+	}
+	.clock1{
+	      width:20px;
+		padding-bottom:1px;
+		  margin-left:7%;
+         padding-right:10px;
+		   
+	}
+	
+	.mark{
+	      width:29px;
+		  margin-left:26%
+	}
+	
+	.sym{
+	 width:22px;  
+	padding-bottom:1px;
+	
+	}
+	
+	.sym1{
+	 width:24px;
+	
+		}
+		
+	.prep{
+		color:white;
+       background-image:linear-gradient(to bottom,#fbdb89,#f38e82);
+       position:relative;
+		transform:skewY(-8deg);
+		width:15%;
+		bottom:71px;
+	    text-transform:uppercase;
+		 padding:11px; 
+		 
+	}
+	
+	  .mid{
+		margin-top:-50px;
+		height:30px;
+        padding-bottom:20px;
+        padding-top:20px;
+		
+		
+		
+		
+	}
+	 .recipe1{
+		  background-color:#bfbfbf;
+		padding-bottom:20px;
+		 padding-top:20px;
+		opacity:0.7;
+		min-height:250px;
+	  }
+	.recipe1>ul{
+		list-style:none;
+		padding-left:20%;
+		list-style-image:url("../IMAGES/icons8-done.svg");
+		
+		}
+	  
+	.recipe1>ul>  li{
+		 float:left; 
+		width:50%;
+		padding-top:10px;
+	  }
+	  
+	  .ul{
+		  list-style:none;
+		  padding-left:10px;
+	  }
+	  .li{
+		  width:100%;
+	  }
+	 .clearfix::after{
+		content:' ';
+		display:block;
+		clear:both;
+	 }
+	  
+	  .button{
+		 background-image:linear-gradient(to bottom,#fbdb89,#f38e82);
+		  border-radius:30px;
+		  border:none;
+		  height:40px;
+		  width:36%;
+		  position:relative;
+		  color:white;
+		  float:right;
+		  padding-bottom:8px;
+		   text-decoration: none;
+		  
+	  }
+	  .recipe{
+		  height:57px;
+          width:95%;
+		  padding:5px;
+	  }
+	  .pizzaimg{
+		  border-radius:50%;
+		  height:80%;
+		  width:90%;
+		  
+		  
+	  }
+	
+	  h5{
+		  color:orangered;
+		  text-transform:uppercase;
+		  white-space: nowrap; 
+         width: 200px; 
+         overflow: hidden;
+         text-overflow: ellipsis;
+		 padding-bottom:5px;
+	  }
+	 p{
+		  font-size:12px;
+		 
+	  }
+	   .p{
+		  font-size:12px;
+
+		 white-space: nowrap; 
+       width: 125px; 
+       overflow: hidden;
+     text-overflow: ellipsis;
+	  }
+	  
+	  .imgcon{
+		  padding-top:10px;
+		  float:left;
+		  
+	  }
+	  .recipe:hover{
+		background-color:#d9d9d9;  
+		
+	  }
+	 h4{
+		 color:orangered;
+		  text-transform:uppercase;
+		  text-align:center;
+	      padding-bottom:20px;
+	} 
+	
+	
+	  .padd{
+		padding-left:23%;
+		
+	}
+	h3{
+		color:orangered;
+		  text-transform:uppercase;
+		  text-align:center;
+		 
+	}
+	 .button1{
+		 background-image:linear-gradient(to bottom,#fbdb89,#f38e82);
+		  border-radius:30px;
+		  border:none;
+		  height:38px;
+		  width:18%;
+		 color:white;
+		padding-bottom:10px;
+		font-weight:bold;
+		text-transform:uppercase;
+	  }
+	  
+	  .font{
+		  font-size:12px;
+		  
+	  }
+	  .footer{
+		  font-size:15px;
+	  }
+	  .pbtn{
+		float:right;
+		  background-color:#e6e6e6;
+		  border-radius:30px;
+		  border:none;
+		  height:40px;
+		  width:30%;
+		    color:red;
+	  }
+	   .pbtn1{
+		 float:left;
+		 background-color:#e6e6e6;
+		  border-radius:30px;
+		  border:none;
+		  height:40px;
+		  width:30%;
+		   color:red;
+			
+	  }
+	  .arrow{
+		  width:21px;
+		}
+		.dirarr{
+			width:22px; 
+			top:5px;
+			position:relative;
+		}
+		.p1{
+			bottom:4px;
+			position:relative;
+		}
+		.p2{
+			bottom:4px;
+			position:relative;
+		}
+		.footercon{
+			padding-top:25px;
+			padding-bottom:15px;
+			border-radius:10px;
+		}
+		.iconfooter{
+			padding:15px;
+			width:27%;
+			float:left;
+			position:absolute;
+			bottom:4px;
+			
+		}
+		.loadimg{
+			width:200px;
+		   
+		}
+		.loaderdiv{
+			
+			
+			display:none;
+		}
