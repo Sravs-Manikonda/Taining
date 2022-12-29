@@ -1,0 +1,32 @@
+.inputdiv{
+    background-color: #FF5300;
+    opacity:0.6;
+    border-radius: 20px;
+    padding:20px;
+    padding-top:30px;
+    width:50%;
+    color:black;
+    padding-left:30px;
+    font-family:  'Poppins', sans-serif;
+}
+input{
+    border: 2px solid hsla(0, 17%, 85%, 0.87);
+    border-radius: 15px;
+    height:30px;
+    width:60%;
+    margin-left: 30px;
+    }
+    h5{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .adminbtn   {
+        border:none;
+        color:#FF5300;
+        background-color: #1a1717;
+        opacity:0.6;
+        border-radius: 20px;
+        height:30px;
+        width:80px;
+         
+    }
