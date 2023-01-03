@@ -1,0 +1,44 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+
+.con-div{
+    background-color:#FFF7F4;
+}
+
+
+.digi{
+    padding-top:30px;
+    
+   
+    font-family:  'Poppins', sans-serif;
+}
+.digi1{
+    padding-top:30px;
+    padding-left:90px;
+  
+}
+.list-item{
+color:black
+}
+.bodydiv{
+   
+    padding:90px;
+}
+
+.txtbtn{
+    color:rgb(238, 225, 225);
+    background-color: #FF5300;
+    width:31%;
+    height:50px;
+   
+}
+.pana{
+   
+    height:405px;
+}
+.active1{
+    color: #FF5300;
+}
+.talkbtn{
+    border:2px solid rgb(145, 150, 145);
+    border-radius: 5px;
+}
