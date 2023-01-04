@@ -1,0 +1,44 @@
+@import '../BOOTSTRAP-FRAMEWORK/node_modules/bootstrap/dist/css/bootstrap.css';
+.con-div{
+    background-color: #FFF7F4;
+    
+}
+/*body{
+    font-family:'Poppins', sans-serif ;
+    
+}*/
+.title{
+    color:#FF5300;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.title::after{
+    content:'______';
+}
+.title::before{
+    content:'_______';
+}
+.heading{
+    font-family:'Poppins', sans-serif ;
+    text-align: center;
+}
+.contentclr{
+    color:#7B7B7B;
+    font-size: 22px;
+    line-height:24px;
+}
+.data{
+    color:#FF5300;
+    font-family:'Poppins', sans-serif;
+}
+.left{
+     top:317px;
+      position:relative;
+      float:left;
+}
+.right{
+    top:201px;
+    position:relative;
+   left:96%;
+}
