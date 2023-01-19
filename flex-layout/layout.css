@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding:0px
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:1200px;
+    margin:auto;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+
+.firstContent,.footer{
+    background-color:rgb(237, 241, 248);
+    padding:35px;
+
+}
+header>div{
+    text-transform: capitalize;
+   width:50%;
+   
+  
+}
+header{
+    display:flex;
+    flex-direction: row wrap;
+    padding:10px
+}
+.join{
+    height:39px;
+    width:65px;
+    padding:10px;
+    border-radius: 9px;
+    background-color: black;
+    border:none;
+    color:white;
+    margin-left: 20px;
+}
+.firstBody{
+    display:flex;
+   
+    flex-wrap: nowrap;
+    padding-top: 90px;
+}
+.firstBody>div{
+   
+   align-items: center;
+    
+    width:50%
+   
+    
+}
+h4{
+   
+    font-size: 37px;
+}
+p{
+    color:rgb(151, 152, 153);
+   text-transform: capitalize;
+   font-size: 15px;
+}
+.square{
+    height:250px;
+    width:250px;
+    background-color: rgb(200, 207, 207);
+    border-radius: 9px;
+    margin-left: 42%;
+}
+.learn{
+    height:39px;
+    width:95px;
+    padding:10px;
+    border-radius: 9px;
+    background-color: black;
+    border:none;
+    color:white;
+   text-transform: capitalize;
+}
+header>div:nth-child(2){
+    text-align: right;
+    margin-right: 70px;
+}
+.content{
+   padding-left: 30px;
+    width:47%
+}
+.secContent{
+    padding:40px;
+   
+}
+h6{
+    font-size: 25px;
+}
+.carditem{
+    background-color: rgb(201, 203, 211);
+    width:230px;
+    height:125px;
+    padding-top:20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+}
+.mini-card{
+    height: 50px;
+    width:75px;
+    border-radius: 9px;
+    background-color:white
+}
+.cards>div{
+   
+    margin:50px;
+  
+}
+.cards{
+    display: flex;
+  
+}
+.card{
+    width:230px;
+   min-height: 200px;
+   margin:10px;
+ 
+   border-radius: 9px;
+}
+.btn
+{
+    border-radius: 50%;
+    background-color:  rgb(201, 203, 211);
+    height:30px;
+    width:30px;
+    border:none;
+    justify-content: space-between;
+}
+.circles,.footer{
+    display: flex;
+    
+}
+.circles>button{
+    margin:5px
+}
+.lbtn{
+    height:37px;
+    width:215px;
+    padding:5px;
+    border-radius: 9px;
+    background-color: black;
+    border:none;
+    color:white;
+   text-transform: capitalize; 
+}
+.thirContent>div{
+    width:50%;
+    padding-left:50px;
+    padding:60px
+}
+.thirContent,.partners,.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.bigsqre{
+    height:340px;
+    width:340px;
+    background-color: rgb(200, 207, 207);
+    border-radius: 9px;
+}
+.thirContent>div:nth-child(2){
+    padding:80px;
+   
+}
+.fifCon{
+   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.fifCon>div{
+    width:310px;
+    min-height: 115px;
+    margin: 10px;
+    background-color:rgb(227, 231, 231);
+    border-radius: 9px;
+    padding:10px
+}
+.fifContent{
+    padding:35px;
+    
+}
+.boxes{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    padding:30px;
+}
+.boxes>.box>div{
+    width:245px;
+    height: 170px;
+    margin: 10px;
+    background-color:rgb(227, 231, 231);
+    border-radius: 9px;
+   
+}
+.box{
+    width:255px;
+    min-height:200px ;
+}
+
+.sevContent,.outptnrs{
+    padding:35px;
+}
+.sevCon{
+    background-color:rgb(237, 241, 248);
+    padding:42px;
+    display: flex;
+  border-radius: 5px;
+}
+.sevCon>div:nth-child(2){
+    width:30%;
+    padding:25px;
+
+}
+.sevCon>div:nth-child(1){
+    width:50%;
+    padding:20px;
+   
+}
+.sqre{
+    height:230px;
+    width:410px;
+    background-color:rgb(227, 231, 231);
+    border-radius: 9px;
+}
+.crcleCon{
+    padding:10px;
+   
+    display: flex;
+   
+}
+.crcleCon>div{
+    width:65%;
+    padding-top: 10px;
+}
+.crcleCon>div:nth-child(1){
+border-radius: 50%;
+height:54px;
+width:65px;
+background-color:rgb(202, 204, 204);
+margin-right: 20px;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.eigthContent>div{
+    width:40%;
+    padding:50px;
+    
+}
+.eigthContent{
+
+display: flex;
+}
+.ninContent{
+    justify-content: center;
+   padding:70px
+}
+.disdiv
+{
+
+    height:165px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius:10px;
+   padding-top:45px
+   
+}
+.joinbtn{
+    height:37px;
+    width:200px;
+    padding:5px;
+    border-radius: 5px;
+    background-color:white;
+    border:none;
+    color:black;
+   text-transform: capitalize; 
+}
+.partners>div{
+    width:200px;
+    height: 115px;
+    margin: 10px;
+    background-color:rgb(227, 231, 231);
+    border-radius: 9px;
+}
+.footer>div>
+{
+    width:40%;
+    padding:10px;
+    height:auto;
+    background-color: pink;
+    
+}
+.rect{
+    width:200px;
+    height: 115px;
+    margin: 10px;
+    
+    background-color:rgb(227, 231, 231);
+    border-radius: 9px;
+}
